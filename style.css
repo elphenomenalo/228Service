@@ -1208,3 +1208,81 @@ form .from1.active{
     height: 100%;
     object-fit: cover;
 }
+
+/* DETAILS COURS PAGE */
+.cour-info-img{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.cour-info-img img{
+    height: 90px;
+    width: 90px;
+    object-fit: cover;
+}
+.content-details-cours-title h1{
+    text-align: center;
+    margin: 40px 0;
+    color: var(--primary-color);
+    font-size: 2.4rem;
+}
+
+.content-details-cours-title h2{
+    margin: 30px 0;
+}
+.content-details-cours-title h2 span{
+    height: 40px;
+    width: 40px;
+    border-radius: 8px;
+    background-color: var(--primary-color);
+    padding: 10px;
+    color: var(--color-white);
+    font-weight: 600;
+}
+.content-details-cours-title h3{
+    border-bottom: 1px solid var(--color-second);
+    margin: 8px 0;
+}
+
+/* LISTE TEST PAGE */
+.testListe{
+    margin-top: 187px;
+    padding: 40px 0;
+}
+.test-img{
+    width: 300px;
+    height: 200px;
+}
+.test-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 7px;
+}
+.tests-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.tests-cards a{
+    text-decoration: none;
+    color: var(--primary-color);
+}
+.test-card{
+    margin: 80px 0;
+}
+.test-card h2{
+    margin: 9px 0;
+}
+.testListe-t{
+    text-align: center;
+    margin: 40px 0;
+}
+.testListe-t h1{
+    font-size: 2.4rem;
+    color: var(--primary-color);
+}
+.testListe-t p{
+    font-size: 1rem;
+    margin: 5px 0;
+}
